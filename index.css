@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    position: sticky;
+}
+.carousel-control-next{
+    color: black;
+}
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    color: black;
+    background-color: rgb(245, 239, 239);
+}
+
+#btn1 {
+    border: rgb(224, 224, 224) 2px solid;
+    margin-right: 5px;
+    color: #1a73e8;
+}
+
+#btn2 {
+    background-color: #1a73e8;
+    color: white;
+}
+
+#btn2:hover {
+    background-color: #1561c3;
+}
+
+#btn1:hover {
+    border: #1a73e8 2px solid;
+    background-color: #eaf3ff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box ul li {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    list-style: none;
+    opacity: 0;
+    background: radial-gradient(#dfe0ff, transparent, transparent);
+    bottom: 0;
+    left: 10vw;
+    animation: animate 10s linear infinite;
+}
+
+.box ul li:nth-child(2) {
+    left: 36vw;
+    animation-delay: 2s;
+}
+
+.box ul li:nth-child(3) {
+    left: 22vw;
+    animation-delay: 4s;
+}
+
+.box ul li:nth-child(4) {
+    left: 56vw;
+    animation-delay: 6s;
+}
+
+.box ul li:nth-child(5) {
+    left: 76vw;
+    animation-delay: 4s;
+}
+
+.box ul li:nth-child(6) {
+    left: 80vw;
+    animation-delay: 8s;
+}
+
+#heading {
+    background-color:pink;
+    color: #000000;
+    padding: 60px 00px 50px 00px;
+}
+
+#img5{
+    margin-left: 40px;
+}
+#head {
+    font-size: 60px;
+    color:#16521b;
+}
+
+#text1 {
+    float: left;
+    padding: 150px 80px 300px 80px;
+}
+
+#pic1 {
+    float: right;
+   
+    margin-top: 40px;
+}
+
+.card:hover{
+   opacity: 0.6;
+}
+
+
+#text4 {
+    float: right;
+    padding: 220px 80px 120px 80px;
+}
+
+#pic4{
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#text5{
+    float: center;
+    margin-top: 2850px;
+}
+#foot{
+    background-color: #f8f9fa;
+    height: 100px;
+    list-style: none ;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0);
+        opacity: 2;
+        bottom: 0;
+    }
+
+    100% {
+        transform: scale(10);
+        opacity: 1;
+        bottom: 100vh;
+    }
+}
+#women{
+    font-size: 20px;
+    width: 900px;
+}
+#tech{
+    background-color: pink;
+}
+#words{
+    padding-top: 30px;
+    font-size: 80px;
+    padding-bottom: 30px;
+}
