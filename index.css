@@ -54,7 +54,6 @@
     background: radial-gradient(#dfe0ff, transparent, transparent);
     bottom: 0;
     left: 10vw;
-    animation: animate 10s linear infinite;
 }
 
 .box ul li:nth-child(2) {
@@ -83,7 +82,7 @@
 }
 
 #heading {
-    background-color:pink;
+    background-color: #ADD8E6;
     color: #000000;
     padding: 60px 00px 50px 00px;
 }
