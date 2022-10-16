@@ -6,9 +6,11 @@
 #container{
     position: sticky;
 }
+
 .carousel-control-next{
     color: black;
 }
+
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
